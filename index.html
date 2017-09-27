@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+      <!-- Week 5 Homework JavaScript fun!!! -->
+      <title>The Philippines Trivia Game!</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Bootstrap File -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+      <!-- JQuery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <!-- JavaScript -->
+      <script src="assets/javascript/app.js"></script>
+      <!-- CSS -->
+
+  </head>
+
+  <body>
+    <!-- Main Container -->
+    <div class="container">
+
+      <!-- Header-Title -->
+      <div class="headerT">
+        <h1><strong>The Philippines Trivia Game!</strong></h1>
+        <h3>There are 6 questions. You will have 60 seconds to answer!</h3>
+        <button type="button" id="startbutton">Start</button>
+      </div>
+
+      <!-- Time Remaining -->
+      <div class="timeRemaining">
+        <p>Time Remaining:  </p>
+      </div>
+
+      <!-- Trivia Content -->
+        <div class="triviaContent">
+
+          <!-- Question #1 -->
+          <div class="col-sm-6">
+            <h4>1. How many islands does the Philppines have?</h4>
+            <div class="trivia">
+              <form>
+                <label class="answers">
+                  <input type="radio" class="wrong" name="option">503
+                </label><br>
+                <label class="answers">
+                  <input type="radio" class="wrong"  name="option">860
+                </label><br>
+                <label class="answers">
+                  <input type="radio" class="correct" name="option">7,107
+                </label><br>
+                <label class="answers">
+                  <input type="radio" class="wrong" name="option">1,983
+                </label>
+              </form>
+            </div>
+          </div>
+        
+
+           <!-- Question #2 -->
+          <div class="col-sm-6">
+            <h4>2. How many languages and dialects does the Philippines have?</h4>
+            <div class="trivia">
+              <form>
+                <label class="answers">
+                  <input type="radio" class="correct" name="option">175
+                </label><br>
+                <label class="answers">
+                  <input type="radio" class="wrong"  name="option">19
+                </label><br>
+                <label class="answers">
+                  <input type="radio" class="wrong" name="option">58
+                </label><br>
+                <label class="answers">
+                  <input type="radio" class="wrong" name="option">103
+                </label>
+              </form>
+            </div>
+          </div>
+
+          <!-- Question #3 -->
+          <div class="col-sm-6">
+            <h4>3. The Philppines is the leading producer of this food:</h4>
+            <div class="trivia">
+              <form>
+                <label class="answers">
+                  <input type="radio" class="wrong" name="option">Manoges
+                </label><br>
+                <label class="answers">
+                  <input type="radio" class="wrong"  name="option">Bananas
+                </label><br>
+                <label class="answers">
+                  <input type="radio" class="wrong" name="option">Papaya
+                </label><br>
+                <label class="answers">
+                  <input type="radio" class="correct" name="option">Coconuts
+                </label>
+              </form>
+            </div>
+          </div>
+
+
+          <!-- Question #4 -->
+          <div class="col-sm-6">
+            <h4>4. The islands were dubbed "the Philippines" after the following:</h4>
+            <div class="trivia">
+              <form>
+                <label class="answers">
+                  <input type="radio" class="correct" name="option">The then Prince of Asturias
+                </label><br>
+                <label class="answers">
+                  <input type="radio" class="wrong"  name="option">A name that Magellan came up with
+                </label><br>
+                <label class="answers">
+                  <input type="radio" class="correct" name="option">King Philip II of Spain
+                </label><br>
+                <label class="answers">
+                  <input type="radio" class="wrong" name="option">Vernacular corruption of Las islas Felipena
+                </label>
+              </form>
+            </div>
+          </div>
+
+
+          <!-- Question #5 -->
+          <div class="col-sm-6">
+            <h4>5. Christmas decorating and festivities starts early in the Philippines. How early do you think they start?</h4>
+            <div class="trivia">
+              <form>
+                <label class="answers">
+                  <input type="radio" class="wrong" name="option">November
+                </label><br>
+                <label class="answers">
+                  <input type="radio" class="wrong"  name="option">October
+                </label><br>
+                <label class="answers">
+                  <input type="radio" class="wrong" name="option">August
+                </label><br>
+                <label class="answers">
+                  <input type="radio" class="correct" name="option">September
+                </label>
+              </form>
+            </div>
+          </div>
+
+          <!-- Question #6 -->
+          <div class="col-sm-6">
+            <h4>6. The Philppines is known to be the "texting capital of the world."  How many text(SMS) are sent on average per day per user</h4>
+            <div class="trivia">
+              <form>
+                <label class="answers">
+                  <input type="radio" class="wrong" name="option">5
+                </label><br>
+                <label class="answers">
+                  <input type="radio" class="correct"  name="option">10-12 
+                </label><br>
+                <label class="answers">
+                  <input type="radio" class="wrong" name="option">21
+                </label><br>
+                <label class="answers">
+                  <input type="radio" class="wrong" name="option">16
+                </label>
+              </form>
+            </div>
+          </div>
+
+
+
+        <button type="button" id="stopbutton">Stop</button>
+      </div>
+
+      <div id="userScore"></div>
+        <p>Your Score:  </p>
+      </div>
+
+    </div>
+
+  </body>
+
+</html>

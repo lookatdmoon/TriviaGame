@@ -1,0 +1,58 @@
+
+body {
+	background-image: url("http://www.islandsofthephilippines.com/wp-content/uploads/2013/06/diving-philippines-balicasag_seaquest_dive_center_philippines_1.jpg");
+	background-size:cover;
+	font-family: verdana;
+	width: 650px;
+	margin: 0 auto;
+}
+
+.headerT {
+	border-style: solid;
+    border-color: #dbfcfc;
+    background-color: #dbfcfc;
+    height: 175px;
+    margin: 0 auto;
+    width: 625px;
+    text-align: center;
+}
+
+.container {
+	border-style: solid;
+    border-color: #dbfcfc;
+    background-color: #dbfcfc;
+    text-align: center;
+    font-size: 16px ;
+    vertical-align: middle;
+    width: 650px;
+    margin: 0 auto;
+}
+
+.timeRemaining {
+    font-size: 14px ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.triviaContent {
+    font-size: 12px ;
+    border-style: solid;
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+.trivia {
+	font-size: 12px;
+	padding-bottom: 20px;
+}
+
+#userScore {
+	border-style: solid;
+    border-color: #dbfcfc;
+    background-color: #dbfcfc;
+    height: 50px;
+    text-align: center;
+    font-size: 15px ;
+    vertical-align: middle;
+}
+
